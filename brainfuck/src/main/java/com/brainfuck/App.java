@@ -1,13 +1,10 @@
 package com.brainfuck;
 
 /**
- * Hello world!
- *
+ * main application entry point
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
     }
 }
