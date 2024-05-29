@@ -44,7 +44,7 @@ public class Compiler {
 
     private void conditionLoop() {
         if (this.memory[this.memoryPointer] != 0)
-            this.instructionPointer = this.pointerLoopRecall.pop()-1;
+            this.instructionPointer = this.pointerLoopRecall.pop() - 1;
     }
 
     private void enterLoop() {
