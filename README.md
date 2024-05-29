@@ -1,2 +1,2 @@
 # Javaf-ck
-A Brainfuck parser and compiler in written in Java
+A Brainfuck parser and compiler written in Java
