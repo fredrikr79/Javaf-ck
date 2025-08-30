@@ -5,7 +5,8 @@ import java.io.IOException;
 
 public class App {
     public static void main(String[] args) throws IOException {
-        File program = new File("src/main/java/com/brainfuck/helloworld.txt");
+        // File program = new File("src/main/java/com/brainfuck/helloworld.txt");
+        File program = new File(args[1]);
         var c = new Compiler(program);
         c.runInstructions();
     }
